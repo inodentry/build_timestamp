@@ -1,0 +1,21 @@
+[package]
+name = "build_timestamp"
+version = "0.1.0"
+authors = ["Jasen Borisov <jamadazi@protonmail.ch>"]
+description = "Simple proc-macro to generate a build timestamp string as a const"
+
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+repository = "https://gitlab.com/jamadazi/build_timestamp"
+
+keywords = ["build", "time", "timestamp", "compile", "string"]
+
+categories = ["no-std", "rust-patterns", "date-and-time", "development-tools"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+time = "0.1"
+syn = "0.15"
